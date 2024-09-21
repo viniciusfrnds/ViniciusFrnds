@@ -1,4 +1,5 @@
-# Meu Projeto
+# Projeto GitHub - Vinicius Fernandes
 
-Este projeto é um exemplo de página HTML com uma estrutura básica. Ele contém um cabeçalho, um corpo de texto e um rodapé. Além disso, estilizamos a página com CSS embutido no documento HTML. Esta estrutura é ideal para projetos simples que necessitam de uma formatação responsiva e compatível com diversos dispositivos.
+Este projeto foi criado para praticar o uso de Git e GitHub, incluindo a criação de múltiplas branches e commits. O projeto contém uma página HTML simples com pelo menos 50 linhas de código, descrevendo algumas funcionalidades básicas. As branches foram criadas para trabalhar em diferentes funcionalidades de forma organizada.
+
 
