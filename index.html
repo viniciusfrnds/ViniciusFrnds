@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Projeto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Interativa de Exemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            margin: 20px 0;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        button {
+            padding: 10px 15px;
+            margin-top: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
-  <h1>Bem-vindo ao meu projeto</h1>
-  <p>Este projeto foi criado para fins de prática com Git e GitHub. Ele contém funcionalidades básicas em HTML, organizadas de maneira simples.</p>
+    <header>
+        <h1>Bem-vindo ao Meu Projeto Interativo!</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre o Projeto</h2>
+            <p>Este projeto demonstra a utilização de HTML, CSS e JavaScript para criar uma página interativa.</p>
+            <button id="alertButton">Clique aqui para uma mensagem!</button>
+            <p id="message" style="display:none;">Você clicou no botão! Obrigado!</p>
+        </section>
+        <section>
+            <h2>Lista de Características</h2>
+            <ul>
+                <li>Interatividade com JavaScript</li>
+                <li>Estilização com CSS</li>
+                <li>Estrutura semântica com HTML</li>
+                <li>Uso de eventos</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Este projeto foi desenvolvido para prática de Git e GitHub.</p>
+        <p>&copy; 2024 Seu Nome</p>
+    </footer>
 
-  <section>
-    <h2>Funcionalidade 1</h2>
-    <p>Descrição da funcionalidade 1.</p>
-  </section>
-
-  <section>
-    <h2>Funcionalidade 2</h2>
-    <p>Descrição da funcionalidade 2.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2024 Vinicius Fernandes</p>
-  </footer>
+    <script>
+        // Função que exibe uma mensagem ao clicar no botão
+        document.getElementById("alertButton").onclick = function() {
+            document.getElementById("message").style.display = "block";
+        };
+    </script>
 </body>
 </html>
